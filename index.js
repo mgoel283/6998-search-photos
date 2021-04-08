@@ -6,6 +6,7 @@ const https = require('https')
 var host = 'search-photos1-qt6drdhhpna5jdwct6mp5u6jfu.us-east-1.es.amazonaws.com'
 var path = '/photos1/_search'
 
+console.log("test");
 exports.handler = (event, context, callback) => {
     console.log("EVENT", event);
     const q = event.queryStringParameters.q
